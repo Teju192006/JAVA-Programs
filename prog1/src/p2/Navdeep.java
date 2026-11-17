@@ -1,0 +1,13 @@
+package p2;
+
+public class Navdeep extends Ajay{
+	public void speed() {
+		System.out.println("60Kmph");
+	}
+	public static void main(String[] args) {
+		Navdeep n =new Navdeep();
+		n.speed();
+		Ajay a= new Ajay();
+		a.speed();
+	}
+}
